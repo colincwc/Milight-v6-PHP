@@ -17,4 +17,11 @@ Use PHP to send commands to Milight v6
          <input type="text" name="zone" value="1"> <!-- Defaults to "0" (ALL zones) if a zone isn't set -->
          <input type="submit" name="submit" value="Send Command">
       </form>
+      
+      Or
+      
+      <a href='milight.php">Turn on lights in All Zones</a>
+      <a href='milight.php?cmd=off'>Turn off lights All Zones</a>
+      <a href='milight.php?cmd=blue&zone=1'>Turn lights blue in Zone 1</a>
+      
   ```
